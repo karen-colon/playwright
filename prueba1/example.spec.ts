@@ -133,5 +133,5 @@ test('Probar componente de Botones', async ({ page }) => {
   await page.getByRole('button', { name: 'Click Me', exact: true }).click();
   await expect(page.locator('#doubleClickMessage')).toContainText('You have done a double click');
   await expect(page.locator('#rightClickMessage')).toContainText('You have done a right click');
-  await page.screenshot({path: 'Evidencias/evidenciaBotones2.png', fullPage:true});
+  await page.screenshot({path: 'Evidencias/evidenciaBotones4.png', fullPage:true});
 });
